@@ -1,0 +1,31 @@
+.header3 {
+  background-image: url("/img/single-portfolio4.png");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header3-grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  width: 60%;
+  margin: 3rem auto;
+}
+.header3-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    width: 40%;
+  margin: 3rem auto;
+}
+.header3-grid {
+    width: 60%;
+    margin-right: 0;
+    margin-left: auto;
+    padding-top: 5rem;
+}
+.header3-icons {
+    font-size: 3rem;
+}

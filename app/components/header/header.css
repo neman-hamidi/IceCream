@@ -1,0 +1,70 @@
+.header {
+  background-image: url("/img/p3.png");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header div {
+  padding-top: 13rem;
+  text-align: end;
+  padding-left: 3rem;
+}
+.p1-header,
+.p2-header {
+  font-family: "Edu";
+  animation: p1 1s ease-in-out 0.25s 1;
+  -webkit-animation: p1 1s ease-in-out 0.25s 1;
+}
+
+@keyframes p1 {
+  0% {
+    transform: translate(-10px,-10px);
+    -webkit-transform: translate(-10px,-10px);
+    -moz-transform: translate(-10px,-10px);
+    -ms-transform: translate(-10px,-10px);
+    -o-transform: translate(-10px,-10px);
+    opacity: 0;
+}
+  100% {
+    transform: translate(0px);
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+    opacity:1;
+}
+}
+.p3-header,
+.btn-header {
+  animation: p2 1.65s ease-in-out 0.35s 1;
+  -webkit-animation: p2 1.65s ease-in-out 0.35s 1;
+}
+
+@keyframes p2 {
+  0% {
+    transform: translate(-10px,-10px);
+    -webkit-transform: translate(-10px,-10px);
+    -moz-transform: translate(-10px,-10px);
+    -ms-transform: translate(-10px,-10px);
+    -o-transform: translate(-10px,-10px);
+    opacity: 0;
+}
+  100% {
+    transform: translate(0px);
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+    opacity:1;
+}
+}
+@media screen and (min-width:600) {
+  .header div {
+    padding-top: 13rem;
+    text-align: end;
+    padding-left: 10rem;
+  }
+  
+}
