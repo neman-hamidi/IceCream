@@ -1,0 +1,21 @@
+.footer {
+  background: #ef7474;
+  position: relative;
+  height: 20rem;
+}
+.footer div {
+  background-image: url("/img/footer-svg.svg");
+  width: 100%;
+  position: absolute;
+  top: -2rem;
+  height: 4rem;
+  transform: rotate(180deg);
+}
+
+.footer p {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

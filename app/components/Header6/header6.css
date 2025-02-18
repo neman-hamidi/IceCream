@@ -1,0 +1,44 @@
+.header6 {
+  background-image: url("/img/single-portfolio7.png");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.comment-div {
+  position: absolute;
+  background: white;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  width: 17rem;
+  height: 19rem;
+  top: 5rem;
+  left: 1.75rem;
+}
+.comment-user {
+  position: absolute;
+  bottom: -8rem;
+  height: 13rem;
+  width: 15rem;
+}
+.comment-user img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 1rem auto;
+}
+@media screen and (min-width:600px) {
+  .comment-div {
+    left: 8rem;
+    width: 24rem;
+  }.comment-user {
+    right: 4rem;
+  }
+}

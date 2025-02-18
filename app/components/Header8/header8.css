@@ -1,0 +1,42 @@
+.header8 {
+  background-image: url("/img/single-portfolio9.png");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.div-grid-header8 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: 0rem;
+  margin-top: 3rem;
+}
+.div-header8 {
+  width: 50%;
+  padding-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: end;
+  color: white;
+}
+@media screen and (min-width: 600px) {
+  .div-grid-header8 {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .div-grid-header8 {
+    width: 30%;
+    justify-items: end;
+  }
+  .div-header8 {
+    width: 50%;
+    padding-top: 10rem;
+    margin-left: 9rem;
+  }
+}

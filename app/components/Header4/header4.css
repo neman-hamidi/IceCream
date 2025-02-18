@@ -1,0 +1,31 @@
+.header4 {
+  background-image: url("/img/single-portfolio5.png");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header4-div-align{
+    align-content: center;
+    height: 100%;
+}
+.p-header4 {
+    width: 75%;
+margin-left: 2rem;
+margin-right: auto;
+}
+.div-btn-header4 {
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+@media screen and (min-width:600px) {
+    .p-header4 {
+        width: 40%;
+        margin-left: 5rem;
+        margin-right: auto;
+    }
+    .div-btn-header4 {
+        margin-left: 5rem;
+    }
+}
